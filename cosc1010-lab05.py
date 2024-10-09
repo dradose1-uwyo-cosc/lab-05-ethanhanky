@@ -2,7 +2,7 @@
 # UWYO COSC 1010
 # Submission Date: 10/08/24
 # Lab 03 
-# Lab Section: 14
+# Lab Section: 11
 # Sources, people worked with, help given to: 
 # I used chat gpt to help fix my code when it wasn't working
 # I was forgetting the colons for my if statements
@@ -104,7 +104,7 @@ for temp in max_temps:
 lowest_temp = min_temps[0]
 
 for lowtemp in min_temps:
-    if lowtemp > lowest_temp:
+    if lowtemp < lowest_temp:
         lowest_temp = lowtemp
 
 print(f"Max temp = {highest_temp}")
